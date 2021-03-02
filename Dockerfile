@@ -1,4 +1,4 @@
 FROM centos:latest
-MAINTANER NewStarCorportation
+MAINTAINER NewStarCorportation
 RUN yum -y install httpd
 ADD . /var/www/html
